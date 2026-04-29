@@ -39,4 +39,38 @@ string zdanie = "Ala ma kota"; // łańcuch znaków / рядок тексту / 
 string noweZdanie = zdanie.ToUpper();
 Console.WriteLine(noweZdanie);
 
+
+
+// 3. Pułapki / Пастки
+// 3.1. Typy zmiennoprzecinkowe / Числа з комою
+double d1 = 1;
+double d2 = 2;
+double wynik = (d1 + d2) / 10;
+Console.WriteLine(wynik);
+
+
+// UWAGA! / УВАГА!
+// Liczby zmiennoprzecinkowe nie są dokładne w systemie binarnym
+// Числа з комою не є точними в бінарній системі
+// Nigdy nie używaj double do obliczeń finansowych!
+// Ніколи не використовуй double для фінансових розрахунків!
+// Do obliczeń finansowych używaj typu decimal
+// Для фінансових розрахунків використовуй тип decimal
+
+// 3.2. Konwersje / Конвертація / Type conversion
+int l1 = 10;
+double l2 = 10.9;
+double wynik2 = l1 + l2;
+int wynik3 = (int)(l1 + l2);
+int wynik4 = l1 + (int)l2;
+Console.WriteLine(wynik2);
+Console.WriteLine(wynik3);
+Console.WriteLine(wynik4);
 Console.ReadLine();
+
+// rzutowanie / приведення типу / casting
+// NIE zaokrągla, tylko odcina część ułamkową!
+// НЕ округляє, а відрізає дробову частину!
+// 10.9 -> 10 (nie 11!)
+
+
