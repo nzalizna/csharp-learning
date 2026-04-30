@@ -66,7 +66,7 @@ int wynik4 = l1 + (int)l2;
 Console.WriteLine(wynik2);
 Console.WriteLine(wynik3);
 Console.WriteLine(wynik4);
-Console.ReadLine();
+
 
 // rzutowanie / приведення типу / casting
 // NIE zaokrągla, tylko odcina część ułamkową!
@@ -74,3 +74,33 @@ Console.ReadLine();
 // 10.9 -> 10 (nie 11!)
 
 
+// Parsowanie / Парсування / Parsing
+// string -> inny typ / рядок -> інший тип
+// "450" -> 450
+string liczba = "450";
+int liczba2 = int.Parse(liczba);
+Console.WriteLine(liczba2);
+
+// int.Parse() - zamienia string na int
+// int.Parse() - перетворює рядок на ціле число
+// UWAGA: jeśli string nie jest liczbą -> błąd!
+// УВАГА: якщо рядок не є числом -> помилка!
+
+// Konkatenacja tekstu / Конкатенація тексту / String concatenation
+string imie = "Ala";
+int liczbaKotow = 15;
+string zwierze = " kotów";
+string zdanie2 = imie + " ma " + liczbaKotow + zwierze;
+Console.WriteLine(zdanie2);
+
+// Operator + z stringiem = konkatenacja (łączenie tekstu)
+// Оператор + з рядком = конкатенація (з'єднання тексту)
+// int automatycznie zamienia się na string
+// int автоматично перетворюється на string
+
+
+// Math.Round() - zaokrąglanie / Заокруглення / Rounding
+double malaLiczba = 1.999;
+double zaokraglona = Math.Round(malaLiczba, 0);
+Console.WriteLine(zaokraglona);
+Console.ReadLine();
