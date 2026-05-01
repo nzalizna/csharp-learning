@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="../NULL_SQL_vs_CSharp.md" />
+  </Folder>
   <Project Path="../Program1/Program1.csproj" Id="edc09256-57e9-4f5c-84a3-f515823cc02a" />
   <Project Path="../Program2/Program2.csproj" Id="793f9efb-fe2d-4838-bd15-12789959f196" />
   <Project Path="Spotkanie2/Spotkanie2.csproj" />
