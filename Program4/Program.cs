@@ -43,7 +43,6 @@ Console.WriteLine(nazwiska[1]);
 // .Count = кількість елементів в List
 // (аналог .Length для масивів)
 Console.WriteLine(nazwiska.Count);
-Console.ReadLine();
 
 
 
@@ -57,3 +56,38 @@ for (int i = 0; i < oceny2.Length; i++)
 }
 srednia /= oceny2.Length;
 Console.WriteLine(srednia);
+
+
+// While — допоки виконується умова
+int licznik = 0;
+while (licznik < oceny2.Length)
+{
+    Console.WriteLine("licznik=" + licznik);
+    licznik++;
+}
+
+
+
+// Do-While — завжди виконується хоча б один раз
+// Nawet jeśli warunek jest fałszywy od początku
+int licznik2 = 0;
+do
+{
+    Console.WriteLine("licznik2=" + licznik2);
+    licznik2++;
+} while (licznik2 < oceny2.Length);
+
+
+
+// Foreach — dla każdego elementu tablicy lub kolekcji
+// Для кожного елемента масиву або колекції
+double[] oceny3 = new double[] { 4, 3, 5, 3, 4 };
+double srednia2 = 0;
+
+foreach (double ocena in oceny3)
+{
+    srednia2 += ocena;
+}
+srednia2 /= oceny3.Length;
+Console.WriteLine(srednia2);
+Console.ReadLine();
