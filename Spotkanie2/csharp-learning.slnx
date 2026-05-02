@@ -2,6 +2,7 @@
   <Folder Name="/Solution Items/">
     <File Path="../NULL_SQL_vs_CSharp.md" />
     <File Path="Tablice_Kolekcje_Petle.md" />
+    <Project Path="../Spotkanie3/Spotkanie3.csproj" Id="3b23403c-dcb8-4848-a179-7f4ae393e12a" />
   </Folder>
   <Project Path="../Program1/Program1.csproj" Id="edc09256-57e9-4f5c-84a3-f515823cc02a" />
   <Project Path="../Program2/Program2.csproj" Id="793f9efb-fe2d-4838-bd15-12789959f196" />
