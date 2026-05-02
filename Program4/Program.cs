@@ -44,3 +44,16 @@ Console.WriteLine(nazwiska[1]);
 // (аналог .Length для масивів)
 Console.WriteLine(nazwiska.Count);
 Console.ReadLine();
+
+
+
+// For — найчастіше використовується з масивами
+double[] oceny2 = new double[] { 4, 3, 5, 3, 4 };
+double srednia = 0;
+
+for (int i = 0; i < oceny2.Length; i++)
+{
+    srednia += oceny2[i];
+}
+srednia /= oceny2.Length;
+Console.WriteLine(srednia);
